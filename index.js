@@ -1,0 +1,3 @@
+require('dotenv').config()
+// Insert Babel here...
+require('./app')
