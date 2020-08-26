@@ -18,12 +18,12 @@ app.listen(8080, () => {
     POST http://localhost:8080/api/contacts
     
     // Get Single Contact with id or phone number
-    GET http://localhost:8080/api/contacts/:contact
+    GET http://localhost:8080/api/contacts/:phoneOrId
 
     // Edit Contact
-    PUT http://localhost:8080/api/contacts/:contact
+    PUT http://localhost:8080/api/contacts/:id
     
     // Delete Contact
-    DELETE http://localhost:8080/api/contacts/:contact
+    DELETE http://localhost:8080/api/contacts/:id
     `);
 });
